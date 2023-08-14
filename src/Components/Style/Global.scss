@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+  font-weight: 700;
+  color: $maincolor;
+}
+@font-face {
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      src: local(''),
+          url('../Fonts/Poppins-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../Fonts/Poppins-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      src: local(''),
+           url('../Fonts/Poppins-SemiBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../Fonts/Poppins-SemiBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      src: local(''),
+           url('../Fonts/Poppins-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../Fonts/Poppins-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
