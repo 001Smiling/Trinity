@@ -26,7 +26,7 @@ $maxWidth: 1400;
     }
 }
 .header-container__table-top{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ $maxWidth: 1400;
     width: 20vw;
 }
 .header-table{
-    width: 80%;
+    width: 90%;
 }
 .header-container__table{
     width: 100%;
@@ -158,7 +158,11 @@ $maxWidth: 1400;
         background-color: rgb(52, 51, 51); 
     }
 }
-
+@media (max-width: 1200px) {
+    #table-none2{
+        display: none;
+    }
+}
 @media (max-width: 640px) {
     .header-container__table-top{
         width: 95%;

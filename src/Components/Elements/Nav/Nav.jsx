@@ -31,7 +31,7 @@ function Nav() {
                             <Link to="/" className="header-nav__profile">Личный кабинет</Link>
                             <Link to="/list" className="header-nav__profile">Автопарк</Link>
                         </div>
-                        <div className="header-nav__regandlog-block">
+                        <div className="header-nav__logout-block">
                             <div onClick={userlogout} className="header-nav__regandlog">Выход</div>
                         </div>
                     </>

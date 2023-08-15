@@ -44,6 +44,9 @@ $maxWidth: 1920;
     display: flex;
     justify-content: space-between;
 }
+.header-nav__logout-block{
+    width: 9%;
+}
 .header-nav__profile,
 .header-nav__regandlog{
     @include adaptiv-font(27,14);
@@ -82,6 +85,9 @@ $maxWidth: 1920;
     }
     .header-nav__regandlog-block{
         width: 33%;
+    }
+    .header-nav__logout-block{
+        width: 14%;
     }
     .header-container__welcome{
         width: 55%;

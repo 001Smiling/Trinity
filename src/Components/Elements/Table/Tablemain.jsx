@@ -169,9 +169,9 @@ function Tablemain() {
                             <th className="header-table__data" id="table-none" onClick={() => handleSort("year")}>
                                 <img className="header-table__img-str" src={Str} alt="Str" /> Год выпуска
                             </th>
-                            <th className="header-table__data" id="table-none">Класс</th>
-                            <th className="header-table__data" id="table-none">Цвет</th>
-                            <th className="header-table__data" id="table-none2" onClick={() => handleSort("price")}>
+                            <th className="header-table__data" id="table-none2">Класс</th>
+                            <th className="header-table__data" id="table-none2">Цвет</th>
+                            <th className="header-table__data" onClick={() => handleSort("price")}>
                                 <img className="header-table__img-str" src={Str} alt="Str" /> Цена
                             </th>
                         </tr>
@@ -188,9 +188,9 @@ function Tablemain() {
                                     <td className="header-table__rowblok">{item.brend}</td>
                                     <td className="header-table__rowblok" id="table-none">{item.model}</td>
                                     <td className="header-table__rowblok" id="table-none">{parseInt(item.year)}</td>
-                                    <td className="header-table__rowblok" id="table-none">{item.class}</td>
-                                    <td className="header-table__rowblok" id="table-none">{item.color}</td>
-                                    <td className="header-table__rowblok" id="table-none2">{parseFloat(item.price).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+                                    <td className="header-table__rowblok" id="table-none2">{item.class}</td>
+                                    <td className="header-table__rowblok" id="table-none2">{item.color}</td>
+                                    <td className="header-table__rowblok" >{parseFloat(item.price).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
                                 </tr>
                             ))
                         )}
